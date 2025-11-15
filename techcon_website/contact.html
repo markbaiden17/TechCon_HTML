@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+    <main>
+        <p>Contact us via our office number: +233 XXX XXX XXX</p>
+        <p>Feel free to reach out via <a href="mailto:email@example.com" target="_blank">email</a></p>
+        <h3>Follow Us</h3>
+        <p>
+            <a href="https://www.facebook.com/profile.php?id=61575779913398" target="_blank">Facebook</a>
+            <a href="https://www.linkedin.com/company/techconevents/" target="_blank">LinkedIn</a>
+        </p>
+        <section id="Venue Location">
+            <h2>Conference Venue: Accra International Conference Centre</h2>
+            <p>Find the exact location of our conference below</p>
+            <div style="position: relative; padding-bottom: 75%; height: 0; overflow:hidden; max-width: 100%;">
+                <iframe src="https://maps.google.com/maps?q=Accra+International+Conference+Centre&output=embed"
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Location of the Accra International Conference Centre"   
+                        frameborder="2"></iframe>
+            </div>
+        </section>
+        <h3>Reach Out to Us</h3>
+        <p>Fill the form below</p>
+        <form action="/submit-form" method="post">
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required placeholder="Full Name">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="Email Address">
+            </p>
+            <p>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" rows="8" cols="50" required placeholder="Type your message here..."></textarea>
+            </p>
+            <p><button type="submit">Send Message</button></p>
+        </form>
+    </main>
+    <footer><p>copyright TechCon 2024 &copy;</p></footer>
+</body>
+</html>
